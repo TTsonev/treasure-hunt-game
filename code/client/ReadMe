@@ -1,0 +1,8 @@
+How to import this project into Eclipse:
+1) Start Eclipse
+2) File -> Import
+3) select Gradle -> Existing Gradle Project 
+4) select the root folder of this project (unpack the compressed file first). The correct root folder is the folder the ReadMe is placed in.
+5) Press "next", then "finish" 
+6) wait till the configuration and the library download is finished (an Internet connection is required).
+

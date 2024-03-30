@@ -1,0 +1,36 @@
+<configuration>
+   <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+       <file>.\logclient.log</file>
+       <encoder>
+           <pattern>
+               %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+           </pattern>
+       </encoder>
+   </appender>
+      
+   <logger name="client" level="DEBUG"/>
+   
+   <logger name="reactor" level="ERROR"/>
+   <logger name="reactor.Mono" level="ERROR"/>
+   <logger name="reactor.Flux" level="ERROR"/>
+   <logger name="org.springframework.web" level="ERROR"/>
+   
+   <root level="WARN">
+       <appender-ref ref="FILE"/>
+   </root>
+
+   <!-- 
+   <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+       <encoder>
+           <pattern>
+               %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+           </pattern>
+       </encoder>
+   </appender>
+   
+   <root level="WARN">
+       <appender-ref ref="stdout"/>
+   </root>
+   -->
+  
+</configuration>

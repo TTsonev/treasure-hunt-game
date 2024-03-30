@@ -1,0 +1,707 @@
+21:53:01.499 [main] WARN  client.main.MainClient - Arguments: TR http://swe1.wst.univie.ac.at WQRnR
+21:53:02.270 [main] INFO  client.main.MainClient - Game Logic beginning...
+21:53:03.485 [main] WARN  client.network.ClientNetwork - My Player ID: PlayerIdentifier=bfbcfbbc-3e5f-4e5b-a35f-580daf3e7dbe
+21:53:03.485 [main] WARN  client.mvc.ClientController - PlayerID: PlayerIdentifier=bfbcfbbc-3e5f-4e5b-a35f-580daf3e7dbe
+21:53:03.488 [main] WARN  client.map.MapGenerator - Generating new HalfMap!
+21:53:03.491 [main] DEBUG client.map.MapGenerator - Added Grass node at (0|0)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Mountain node at (0|1)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (0|2)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (0|3)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (0|4)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (1|0)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Mountain node at (1|1)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (1|2)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (1|3)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (1|4)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Water node at (2|0)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (2|1)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Mountain node at (2|2)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (2|3)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (2|4)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Mountain node at (3|0)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (3|1)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (3|2)
+21:53:03.492 [main] DEBUG client.map.MapGenerator - Added Grass node at (3|3)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (3|4)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (4|0)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Water node at (4|1)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Mountain node at (4|2)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (4|3)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (4|4)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (5|0)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (5|1)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Mountain node at (5|2)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Mountain node at (5|3)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Mountain node at (5|4)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (6|0)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (6|1)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (6|2)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (6|3)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (6|4)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (7|0)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Mountain node at (7|1)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Water node at (7|2)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (7|3)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Mountain node at (7|4)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Grass node at (8|0)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Water node at (8|1)
+21:53:03.493 [main] DEBUG client.map.MapGenerator - Added Water node at (8|2)
+21:53:03.494 [main] DEBUG client.map.MapGenerator - Added Grass node at (8|3)
+21:53:03.494 [main] DEBUG client.map.MapGenerator - Added Grass node at (8|4)
+21:53:03.494 [main] DEBUG client.map.MapGenerator - Added Water node at (9|0)
+21:53:03.494 [main] DEBUG client.map.MapGenerator - Added Water node at (9|1)
+21:53:03.494 [main] DEBUG client.map.MapGenerator - Added Grass node at (9|2)
+21:53:03.494 [main] DEBUG client.map.MapGenerator - Added Mountain node at (9|3)
+21:53:03.494 [main] DEBUG client.map.MapGenerator - Added Grass node at (9|4)
+21:53:03.495 [main] WARN  client.map.MapGenerator - Set castle next to mountain at (1|2)
+21:53:03.496 [main] DEBUG client.map.MapGenerator - Map contains 32 Grass | 7 Water | 11 Mountain Fields
+21:53:03.499 [main] WARN  client.map.MapGenerator - Map valid!
+21:53:03.501 [main] WARN  client.map.MapConverter - Converting HalfMaNodes to FullMapNodes
+21:53:03.502 [main] DEBUG client.mvc.CLI - Displaying Game State: halfMapStateID
+21:53:03.511 [main] DEBUG client.mvc.ClientModel - Set Game State: halfMapStateID
+21:53:03.534 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:03.576 [main] WARN  client.network.ClientNetwork - HalfMap sent successfully!
+21:53:03.576 [main] INFO  client.mvc.ClientController - HalfMap sent!
+21:53:04.441 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:04.441 [main] DEBUG client.mvc.CLI - Displaying Game State: 20684c9f-4c7a-4614-b48e-be342f511ece
+21:53:04.446 [main] DEBUG client.mvc.ClientModel - Set Game State: 20684c9f-4c7a-4614-b48e-be342f511ece
+21:53:04.447 [main] INFO  client.mvc.ClientController - Searching for the Treasure!
+21:53:04.450 [main] DEBUG client.navigation.TreasureNavigator - Extracted Current Position: Position [1|2])
+21:53:04.451 [main] DEBUG client.navigation.TreasureNavigator - Extracted [Left] Half of [Horizontal] Map
+21:53:04.455 [main] DEBUG client.navigation.TreasureNavigator - Requesting Path from Position [1|2] to Position [2|2]
+21:53:04.456 [main] DEBUG client.navigation.TreasureNavigator - Position [1|2] added to visited
+21:53:04.497 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:04.498 [main] DEBUG client.mvc.ClientModel - Set Game State: 20684c9f-4c7a-4614-b48e-be342f511ece
+21:53:04.532 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:04.958 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:04.959 [main] DEBUG client.mvc.CLI - Displaying Game State: 55ff3ab3-090b-4ced-acb3-f6b880325b3e
+21:53:04.962 [main] DEBUG client.mvc.ClientModel - Set Game State: 55ff3ab3-090b-4ced-acb3-f6b880325b3e
+21:53:04.986 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:05.425 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:05.426 [main] DEBUG client.mvc.CLI - Displaying Game State: 7909ccef-0ab3-461e-8eda-99abac0432b7
+21:53:05.427 [main] DEBUG client.mvc.ClientModel - Set Game State: 7909ccef-0ab3-461e-8eda-99abac0432b7
+21:53:05.449 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:05.872 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:05.873 [main] DEBUG client.mvc.CLI - Displaying Game State: 14a791fa-ad81-4ce7-b0e7-295d3da09085
+21:53:05.876 [main] DEBUG client.mvc.ClientModel - Set Game State: 14a791fa-ad81-4ce7-b0e7-295d3da09085
+21:53:05.877 [main] WARN  client.mvc.ClientController - Generating next set of moves!
+21:53:05.877 [main] DEBUG client.navigation.TreasureNavigator - Requesting Path from Position [2|2] to Position [7|1]
+21:53:05.877 [main] DEBUG client.navigation.TreasureNavigator - Position [2|2] added to visited
+21:53:05.878 [main] DEBUG client.navigation.TreasureNavigator - Position [3|2] added to visited
+21:53:05.878 [main] DEBUG client.navigation.TreasureNavigator - Position [4|2] added to visited
+21:53:05.878 [main] DEBUG client.navigation.TreasureNavigator - Position [5|2] added to visited
+21:53:05.878 [main] DEBUG client.navigation.TreasureNavigator - Position [5|1] added to visited
+21:53:05.878 [main] DEBUG client.navigation.TreasureNavigator - Position [6|1] added to visited
+21:53:05.897 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:06.336 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:06.336 [main] DEBUG client.mvc.CLI - Displaying Game State: e215c66c-8f59-4aa3-96fb-86e5ecb8b34e
+21:53:06.339 [main] DEBUG client.mvc.ClientModel - Set Game State: e215c66c-8f59-4aa3-96fb-86e5ecb8b34e
+21:53:06.358 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:06.797 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:06.797 [main] DEBUG client.mvc.CLI - Displaying Game State: 87999c68-ca3e-4a4f-8459-d573c485ff92
+21:53:06.799 [main] DEBUG client.mvc.ClientModel - Set Game State: 87999c68-ca3e-4a4f-8459-d573c485ff92
+21:53:06.824 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:07.256 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:07.256 [main] DEBUG client.mvc.CLI - Displaying Game State: 0ea4e18f-e93a-4f08-a4dd-38b139c1a61f
+21:53:07.257 [main] DEBUG client.mvc.ClientModel - Set Game State: 0ea4e18f-e93a-4f08-a4dd-38b139c1a61f
+21:53:07.273 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:07.699 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:07.699 [main] DEBUG client.mvc.CLI - Displaying Game State: 45a1946e-3e55-4fc8-bfb2-50a0ba645810
+21:53:07.700 [main] DEBUG client.mvc.ClientModel - Set Game State: 45a1946e-3e55-4fc8-bfb2-50a0ba645810
+21:53:07.723 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:08.141 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:08.141 [main] DEBUG client.mvc.CLI - Displaying Game State: dbcf2371-004f-4a79-8156-2aed8e4b31db
+21:53:08.142 [main] DEBUG client.mvc.ClientModel - Set Game State: dbcf2371-004f-4a79-8156-2aed8e4b31db
+21:53:08.171 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:08.622 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:08.623 [main] DEBUG client.mvc.CLI - Displaying Game State: fdd437bd-dba5-4766-8001-89185d34e904
+21:53:08.624 [main] DEBUG client.mvc.ClientModel - Set Game State: fdd437bd-dba5-4766-8001-89185d34e904
+21:53:08.647 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:09.066 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:09.066 [main] DEBUG client.mvc.CLI - Displaying Game State: affffbe9-a1a6-4ae8-b607-13cdbc26e262
+21:53:09.067 [main] DEBUG client.mvc.ClientModel - Set Game State: affffbe9-a1a6-4ae8-b607-13cdbc26e262
+21:53:09.091 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:09.527 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:09.528 [main] DEBUG client.mvc.CLI - Displaying Game State: c8aa8ca5-1f7a-492f-9cd7-53578648d3d0
+21:53:09.529 [main] DEBUG client.mvc.ClientModel - Set Game State: c8aa8ca5-1f7a-492f-9cd7-53578648d3d0
+21:53:09.556 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:09.992 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:09.992 [main] DEBUG client.mvc.CLI - Displaying Game State: 690a1770-26d4-4fca-a340-1eaf10aa894f
+21:53:09.993 [main] DEBUG client.mvc.ClientModel - Set Game State: 690a1770-26d4-4fca-a340-1eaf10aa894f
+21:53:10.026 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:10.455 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:10.455 [main] DEBUG client.mvc.CLI - Displaying Game State: 263e6832-961b-4d6a-890e-0a21eda94b64
+21:53:10.456 [main] DEBUG client.mvc.ClientModel - Set Game State: 263e6832-961b-4d6a-890e-0a21eda94b64
+21:53:10.472 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:10.906 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:10.906 [main] DEBUG client.mvc.CLI - Displaying Game State: b08adcbf-82a6-4885-968f-82c44a3742d8
+21:53:10.908 [main] DEBUG client.mvc.ClientModel - Set Game State: b08adcbf-82a6-4885-968f-82c44a3742d8
+21:53:10.931 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:11.355 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:11.355 [main] DEBUG client.mvc.CLI - Displaying Game State: 8e612504-b78a-471e-952d-dfce6512a2c2
+21:53:11.356 [main] DEBUG client.mvc.ClientModel - Set Game State: 8e612504-b78a-471e-952d-dfce6512a2c2
+21:53:11.382 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:11.813 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:11.813 [main] DEBUG client.mvc.CLI - Displaying Game State: 660dc1a0-bf5f-4a76-8e1e-e7cb002e1a13
+21:53:11.814 [main] DEBUG client.mvc.ClientModel - Set Game State: 660dc1a0-bf5f-4a76-8e1e-e7cb002e1a13
+21:53:11.834 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:12.263 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:12.264 [main] DEBUG client.mvc.CLI - Displaying Game State: 9139ba84-370e-4654-9076-280849a10e3c
+21:53:12.265 [main] DEBUG client.mvc.ClientModel - Set Game State: 9139ba84-370e-4654-9076-280849a10e3c
+21:53:12.283 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:12.706 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:12.706 [main] DEBUG client.mvc.CLI - Displaying Game State: 3235445d-69f0-4be6-8e9a-55391d17696c
+21:53:12.707 [main] DEBUG client.mvc.ClientModel - Set Game State: 3235445d-69f0-4be6-8e9a-55391d17696c
+21:53:12.725 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:13.151 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:13.152 [main] DEBUG client.mvc.CLI - Displaying Game State: 793d23fa-e5c7-4161-aa53-8caa9698946b
+21:53:13.153 [main] DEBUG client.mvc.ClientModel - Set Game State: 793d23fa-e5c7-4161-aa53-8caa9698946b
+21:53:13.174 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:13.595 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:13.595 [main] DEBUG client.mvc.CLI - Displaying Game State: 847a8eb7-edb3-46bc-9ed0-741c08365e82
+21:53:13.596 [main] DEBUG client.mvc.ClientModel - Set Game State: 847a8eb7-edb3-46bc-9ed0-741c08365e82
+21:53:13.614 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:14.038 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:14.038 [main] DEBUG client.mvc.CLI - Displaying Game State: 59e4fc0c-1a47-4561-ae16-c2c2555c0624
+21:53:14.039 [main] DEBUG client.mvc.ClientModel - Set Game State: 59e4fc0c-1a47-4561-ae16-c2c2555c0624
+21:53:14.039 [main] WARN  client.mvc.ClientController - Generating next set of moves!
+21:53:14.039 [main] DEBUG client.navigation.TreasureNavigator - Requesting Path from Position [7|1] to Position [3|0]
+21:53:14.039 [main] DEBUG client.navigation.TreasureNavigator - Position [7|1] added to visited
+21:53:14.040 [main] DEBUG client.navigation.TreasureNavigator - Position [7|0] added to visited
+21:53:14.040 [main] DEBUG client.navigation.TreasureNavigator - Position [6|0] added to visited
+21:53:14.040 [main] DEBUG client.navigation.TreasureNavigator - Position [5|0] added to visited
+21:53:14.040 [main] DEBUG client.navigation.TreasureNavigator - Position [4|0] added to visited
+21:53:14.057 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:14.474 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:14.474 [main] DEBUG client.mvc.CLI - Displaying Game State: 297de870-b77f-48ee-9ed8-fe3593c7a320
+21:53:14.475 [main] DEBUG client.mvc.ClientModel - Set Game State: 297de870-b77f-48ee-9ed8-fe3593c7a320
+21:53:14.494 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:14.915 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:14.916 [main] DEBUG client.mvc.CLI - Displaying Game State: 9ad5f13c-459b-41fd-b67f-9e4bd2a9b191
+21:53:14.916 [main] DEBUG client.mvc.ClientModel - Set Game State: 9ad5f13c-459b-41fd-b67f-9e4bd2a9b191
+21:53:14.943 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:15.377 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:15.377 [main] DEBUG client.mvc.CLI - Displaying Game State: 8d9aa3ec-0eb4-4df8-ace0-27295693da66
+21:53:15.378 [main] DEBUG client.mvc.ClientModel - Set Game State: 8d9aa3ec-0eb4-4df8-ace0-27295693da66
+21:53:15.404 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:15.825 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:15.825 [main] DEBUG client.mvc.CLI - Displaying Game State: ed10cc05-d85a-4fdc-9bc1-2c15175f677d
+21:53:15.826 [main] DEBUG client.mvc.ClientModel - Set Game State: ed10cc05-d85a-4fdc-9bc1-2c15175f677d
+21:53:15.843 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:16.278 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:16.278 [main] DEBUG client.mvc.CLI - Displaying Game State: 2b7c55bd-6907-482f-95ac-d53434275c56
+21:53:16.279 [main] DEBUG client.mvc.ClientModel - Set Game State: 2b7c55bd-6907-482f-95ac-d53434275c56
+21:53:16.293 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:16.725 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:16.725 [main] DEBUG client.mvc.CLI - Displaying Game State: 9e8b97ea-2c31-45da-a576-268fafb5edf8
+21:53:16.726 [main] DEBUG client.mvc.ClientModel - Set Game State: 9e8b97ea-2c31-45da-a576-268fafb5edf8
+21:53:16.754 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:17.178 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:17.179 [main] DEBUG client.mvc.CLI - Displaying Game State: e20187f2-5af1-4294-b9f7-5fad03b07b7c
+21:53:17.179 [main] DEBUG client.mvc.ClientModel - Set Game State: e20187f2-5af1-4294-b9f7-5fad03b07b7c
+21:53:17.193 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:17.617 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:17.617 [main] DEBUG client.mvc.CLI - Displaying Game State: e5afcc75-590a-40d0-966f-167331e982be
+21:53:17.618 [main] DEBUG client.mvc.ClientModel - Set Game State: e5afcc75-590a-40d0-966f-167331e982be
+21:53:17.637 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:18.063 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:18.063 [main] DEBUG client.mvc.CLI - Displaying Game State: 27940227-293c-4e49-8acd-9cb28ae84018
+21:53:18.063 [main] DEBUG client.mvc.ClientModel - Set Game State: 27940227-293c-4e49-8acd-9cb28ae84018
+21:53:18.077 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:18.495 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:18.495 [main] DEBUG client.mvc.CLI - Displaying Game State: 6b1b0dfc-518d-427b-9e0b-3ee73d8ec702
+21:53:18.496 [main] DEBUG client.mvc.ClientModel - Set Game State: 6b1b0dfc-518d-427b-9e0b-3ee73d8ec702
+21:53:18.514 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:18.945 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:18.945 [main] DEBUG client.mvc.CLI - Displaying Game State: 66c64314-72d6-4ffa-89c3-c10070bd5045
+21:53:18.946 [main] DEBUG client.mvc.ClientModel - Set Game State: 66c64314-72d6-4ffa-89c3-c10070bd5045
+21:53:18.966 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:19.390 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:19.391 [main] DEBUG client.mvc.CLI - Displaying Game State: 6c4930e1-9b8d-49e6-a942-197130b2591d
+21:53:19.392 [main] DEBUG client.mvc.ClientModel - Set Game State: 6c4930e1-9b8d-49e6-a942-197130b2591d
+21:53:19.392 [main] WARN  client.mvc.ClientController - Generating next set of moves!
+21:53:19.392 [main] DEBUG client.navigation.TreasureNavigator - Requesting Path from Position [3|0] to Position [7|4]
+21:53:19.392 [main] DEBUG client.navigation.TreasureNavigator - Position [3|0] added to visited
+21:53:19.392 [main] DEBUG client.navigation.TreasureNavigator - Position [3|1] added to visited
+21:53:19.393 [main] DEBUG client.navigation.TreasureNavigator - Position [3|2] added to visited
+21:53:19.393 [main] DEBUG client.navigation.TreasureNavigator - Position [3|3] added to visited
+21:53:19.393 [main] DEBUG client.navigation.TreasureNavigator - Position [3|4] added to visited
+21:53:19.393 [main] DEBUG client.navigation.TreasureNavigator - Position [4|4] added to visited
+21:53:19.393 [main] DEBUG client.navigation.TreasureNavigator - Position [5|4] added to visited
+21:53:19.393 [main] DEBUG client.navigation.TreasureNavigator - Position [6|4] added to visited
+21:53:19.409 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:19.834 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:19.834 [main] DEBUG client.mvc.CLI - Displaying Game State: 0623ba2f-af04-45cb-9ea1-0d550006a1ae
+21:53:19.835 [main] DEBUG client.mvc.ClientModel - Set Game State: 0623ba2f-af04-45cb-9ea1-0d550006a1ae
+21:53:19.852 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:20.277 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:20.277 [main] DEBUG client.mvc.CLI - Displaying Game State: 3a64323c-6466-4fdf-98cc-af4417b793d4
+21:53:20.278 [main] DEBUG client.mvc.ClientModel - Set Game State: 3a64323c-6466-4fdf-98cc-af4417b793d4
+21:53:20.294 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:20.723 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:20.723 [main] DEBUG client.mvc.CLI - Displaying Game State: b53ebc6b-0d35-4afd-aebf-808cfbce1857
+21:53:20.724 [main] DEBUG client.mvc.ClientModel - Set Game State: b53ebc6b-0d35-4afd-aebf-808cfbce1857
+21:53:20.741 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:21.162 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:21.162 [main] DEBUG client.mvc.CLI - Displaying Game State: 3c76faa6-3a5c-4122-8613-1673565c913c
+21:53:21.163 [main] DEBUG client.mvc.ClientModel - Set Game State: 3c76faa6-3a5c-4122-8613-1673565c913c
+21:53:21.184 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:21.604 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:21.604 [main] DEBUG client.mvc.CLI - Displaying Game State: aad9271e-9641-4f66-aa17-ea073a1739ad
+21:53:21.605 [main] DEBUG client.mvc.ClientModel - Set Game State: aad9271e-9641-4f66-aa17-ea073a1739ad
+21:53:21.628 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:22.126 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:22.126 [main] DEBUG client.mvc.CLI - Displaying Game State: b43bab3f-7c93-4d9d-9313-04087cd64b59
+21:53:22.127 [main] DEBUG client.mvc.ClientModel - Set Game State: b43bab3f-7c93-4d9d-9313-04087cd64b59
+21:53:22.159 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:22.599 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:22.599 [main] DEBUG client.mvc.CLI - Displaying Game State: c56a9389-2070-4222-9619-de064fbeb312
+21:53:22.600 [main] DEBUG client.mvc.ClientModel - Set Game State: c56a9389-2070-4222-9619-de064fbeb312
+21:53:22.621 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:23.046 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:23.047 [main] DEBUG client.mvc.CLI - Displaying Game State: 3daf9001-47d9-41bf-afa9-113b533cfb54
+21:53:23.047 [main] DEBUG client.mvc.ClientModel - Set Game State: 3daf9001-47d9-41bf-afa9-113b533cfb54
+21:53:23.070 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:23.499 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:23.499 [main] DEBUG client.mvc.CLI - Displaying Game State: 8dffd6be-e996-4647-b671-a8745be18025
+21:53:23.500 [main] DEBUG client.mvc.ClientModel - Set Game State: 8dffd6be-e996-4647-b671-a8745be18025
+21:53:23.517 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:23.959 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:23.960 [main] DEBUG client.mvc.CLI - Displaying Game State: 6ea94faa-cd1d-436d-a612-7915115e678b
+21:53:23.960 [main] DEBUG client.mvc.ClientModel - Set Game State: 6ea94faa-cd1d-436d-a612-7915115e678b
+21:53:23.983 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:24.407 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:24.407 [main] DEBUG client.mvc.CLI - Displaying Game State: cd65c230-dfc1-4958-8533-1ff6c1c10e64
+21:53:24.411 [main] DEBUG client.mvc.ClientModel - Set Game State: cd65c230-dfc1-4958-8533-1ff6c1c10e64
+21:53:24.426 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:24.847 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:24.847 [main] DEBUG client.mvc.CLI - Displaying Game State: 2bc53d30-0483-4dd1-8438-dc8944399b09
+21:53:24.848 [main] DEBUG client.mvc.ClientModel - Set Game State: 2bc53d30-0483-4dd1-8438-dc8944399b09
+21:53:24.870 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:25.303 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:25.303 [main] DEBUG client.mvc.CLI - Displaying Game State: 0a976ff7-4c1e-43ce-9f05-2205fbed0788
+21:53:25.304 [main] DEBUG client.mvc.ClientModel - Set Game State: 0a976ff7-4c1e-43ce-9f05-2205fbed0788
+21:53:25.327 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:25.754 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:25.754 [main] DEBUG client.mvc.CLI - Displaying Game State: d901dd40-89db-405a-8321-5514c521ee44
+21:53:25.755 [main] DEBUG client.mvc.ClientModel - Set Game State: d901dd40-89db-405a-8321-5514c521ee44
+21:53:25.769 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:26.215 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:26.215 [main] DEBUG client.mvc.CLI - Displaying Game State: c405f479-f58b-4b26-ad60-d9107716b5b6
+21:53:26.216 [main] DEBUG client.mvc.ClientModel - Set Game State: c405f479-f58b-4b26-ad60-d9107716b5b6
+21:53:26.237 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:26.668 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:26.668 [main] DEBUG client.mvc.CLI - Displaying Game State: 9066721b-a1e7-44dc-ab6c-5acdf4f35990
+21:53:26.669 [main] DEBUG client.mvc.ClientModel - Set Game State: 9066721b-a1e7-44dc-ab6c-5acdf4f35990
+21:53:26.698 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:27.127 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:27.127 [main] DEBUG client.mvc.CLI - Displaying Game State: 48ec0feb-54bc-4014-80a8-a2432214e5be
+21:53:27.128 [main] DEBUG client.mvc.ClientModel - Set Game State: 48ec0feb-54bc-4014-80a8-a2432214e5be
+21:53:27.152 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:27.582 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:27.582 [main] DEBUG client.mvc.CLI - Displaying Game State: a051e6ca-10da-48b0-8c78-5c176fda09b0
+21:53:27.583 [main] DEBUG client.mvc.ClientModel - Set Game State: a051e6ca-10da-48b0-8c78-5c176fda09b0
+21:53:27.605 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:28.021 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:28.022 [main] DEBUG client.mvc.CLI - Displaying Game State: 45d6fe6c-f3c1-41ef-a98a-66ac8a6945a8
+21:53:28.022 [main] DEBUG client.mvc.ClientModel - Set Game State: 45d6fe6c-f3c1-41ef-a98a-66ac8a6945a8
+21:53:28.046 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:28.477 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:28.477 [main] DEBUG client.mvc.CLI - Displaying Game State: f43705cc-faf0-410e-ae85-e22d68565562
+21:53:28.478 [main] DEBUG client.mvc.ClientModel - Set Game State: f43705cc-faf0-410e-ae85-e22d68565562
+21:53:28.479 [main] WARN  client.mvc.ClientController - Generating next set of moves!
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Requesting Path from Position [7|4] to Position [0|1]
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [7|4] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [7|3] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [6|3] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [6|2] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [5|2] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [4|2] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [3|2] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [3|1] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [2|1] added to visited
+21:53:28.479 [main] DEBUG client.navigation.TreasureNavigator - Position [1|1] added to visited
+21:53:28.495 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:28.914 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:28.914 [main] DEBUG client.mvc.CLI - Displaying Game State: e9a994e6-1a8d-4e29-932d-cdb87fd6c588
+21:53:28.915 [main] DEBUG client.mvc.ClientModel - Set Game State: e9a994e6-1a8d-4e29-932d-cdb87fd6c588
+21:53:28.934 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:29.355 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:29.355 [main] DEBUG client.mvc.CLI - Displaying Game State: ac15cea2-773c-46cc-8234-5e2641678261
+21:53:29.356 [main] DEBUG client.mvc.ClientModel - Set Game State: ac15cea2-773c-46cc-8234-5e2641678261
+21:53:29.376 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:29.801 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:29.802 [main] DEBUG client.mvc.CLI - Displaying Game State: 2ec43b31-29d9-4aad-b2c1-456ef03ef9d0
+21:53:29.803 [main] DEBUG client.mvc.ClientModel - Set Game State: 2ec43b31-29d9-4aad-b2c1-456ef03ef9d0
+21:53:29.825 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:30.254 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:30.254 [main] DEBUG client.mvc.CLI - Displaying Game State: 250c4119-91e2-4a96-9d8f-3ba4058126e7
+21:53:30.255 [main] DEBUG client.mvc.ClientModel - Set Game State: 250c4119-91e2-4a96-9d8f-3ba4058126e7
+21:53:30.274 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:30.692 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:30.692 [main] DEBUG client.mvc.CLI - Displaying Game State: ad9fda9a-e6cf-47bd-9126-00db5e81f6e4
+21:53:30.693 [main] DEBUG client.mvc.ClientModel - Set Game State: ad9fda9a-e6cf-47bd-9126-00db5e81f6e4
+21:53:30.722 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:31.147 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:31.147 [main] DEBUG client.mvc.CLI - Displaying Game State: 80454f2e-1d08-4d48-8ca5-8709e07655ba
+21:53:31.148 [main] DEBUG client.mvc.ClientModel - Set Game State: 80454f2e-1d08-4d48-8ca5-8709e07655ba
+21:53:31.169 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:31.594 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:31.594 [main] DEBUG client.mvc.CLI - Displaying Game State: 4c0e08a6-129b-4248-b95f-9ae97204f443
+21:53:31.595 [main] DEBUG client.mvc.ClientModel - Set Game State: 4c0e08a6-129b-4248-b95f-9ae97204f443
+21:53:31.608 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:32.025 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:32.025 [main] DEBUG client.mvc.CLI - Displaying Game State: 585ce564-124b-4d01-9713-5d547413c0a2
+21:53:32.026 [main] DEBUG client.mvc.ClientModel - Set Game State: 585ce564-124b-4d01-9713-5d547413c0a2
+21:53:32.044 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:32.466 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:32.466 [main] DEBUG client.mvc.CLI - Displaying Game State: 9e5227d4-ab91-4e83-be5a-fb8331d2cc85
+21:53:32.467 [main] DEBUG client.mvc.ClientModel - Set Game State: 9e5227d4-ab91-4e83-be5a-fb8331d2cc85
+21:53:32.482 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:32.909 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:32.909 [main] DEBUG client.mvc.CLI - Displaying Game State: 43d6f5ea-aff7-4420-8f7e-6abd45e162db
+21:53:32.910 [main] DEBUG client.mvc.ClientModel - Set Game State: 43d6f5ea-aff7-4420-8f7e-6abd45e162db
+21:53:32.929 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:33.364 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:33.364 [main] DEBUG client.mvc.CLI - Displaying Game State: fe600f00-8274-4830-969f-e2cc97d58fee
+21:53:33.365 [main] DEBUG client.mvc.ClientModel - Set Game State: fe600f00-8274-4830-969f-e2cc97d58fee
+21:53:33.384 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:33.807 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:33.807 [main] DEBUG client.mvc.CLI - Displaying Game State: 64595069-9d68-4d53-aca5-4afa553b2939
+21:53:33.808 [main] DEBUG client.mvc.ClientModel - Set Game State: 64595069-9d68-4d53-aca5-4afa553b2939
+21:53:33.825 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:34.251 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:34.252 [main] DEBUG client.mvc.CLI - Displaying Game State: 1c973012-cc7e-463a-86d7-f0374732877b
+21:53:34.252 [main] DEBUG client.mvc.ClientModel - Set Game State: 1c973012-cc7e-463a-86d7-f0374732877b
+21:53:34.274 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:34.697 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:34.697 [main] DEBUG client.mvc.CLI - Displaying Game State: 1fa459cc-3e93-4d44-a41a-edc62102fc2e
+21:53:34.697 [main] DEBUG client.mvc.ClientModel - Set Game State: 1fa459cc-3e93-4d44-a41a-edc62102fc2e
+21:53:34.712 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:35.143 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:35.143 [main] DEBUG client.mvc.CLI - Displaying Game State: 0d5d763e-b93a-4f9b-ae9f-d2bababdbfa3
+21:53:35.144 [main] DEBUG client.mvc.ClientModel - Set Game State: 0d5d763e-b93a-4f9b-ae9f-d2bababdbfa3
+21:53:35.164 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:35.594 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:35.594 [main] DEBUG client.mvc.CLI - Displaying Game State: 3e54c383-8552-4f72-b30a-7c13ea39c4ad
+21:53:35.594 [main] DEBUG client.mvc.ClientModel - Set Game State: 3e54c383-8552-4f72-b30a-7c13ea39c4ad
+21:53:35.616 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:36.037 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:36.037 [main] DEBUG client.mvc.CLI - Displaying Game State: e95a98ad-d302-4b4a-9c68-eb42d11b0e6e
+21:53:36.037 [main] DEBUG client.mvc.ClientModel - Set Game State: e95a98ad-d302-4b4a-9c68-eb42d11b0e6e
+21:53:36.055 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:36.474 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:36.475 [main] DEBUG client.mvc.CLI - Displaying Game State: 277b2338-37ea-41c4-9c6a-ec324a50bb00
+21:53:36.475 [main] DEBUG client.mvc.ClientModel - Set Game State: 277b2338-37ea-41c4-9c6a-ec324a50bb00
+21:53:36.498 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:36.928 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:36.929 [main] DEBUG client.mvc.CLI - Displaying Game State: d9c9d2dc-859a-487c-83ec-62c956ede4a2
+21:53:36.929 [main] DEBUG client.mvc.ClientModel - Set Game State: d9c9d2dc-859a-487c-83ec-62c956ede4a2
+21:53:36.946 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:37.371 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:37.372 [main] DEBUG client.mvc.CLI - Displaying Game State: bcffe3b5-b518-4fc3-bdab-b8d000806489
+21:53:37.372 [main] DEBUG client.mvc.ClientModel - Set Game State: bcffe3b5-b518-4fc3-bdab-b8d000806489
+21:53:37.391 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:37.822 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:37.822 [main] DEBUG client.mvc.CLI - Displaying Game State: a482047f-80e5-4b9f-a89f-2c8bfd6c13fe
+21:53:37.822 [main] DEBUG client.mvc.ClientModel - Set Game State: a482047f-80e5-4b9f-a89f-2c8bfd6c13fe
+21:53:37.846 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:38.275 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:38.275 [main] DEBUG client.mvc.CLI - Displaying Game State: 350bbb86-1278-4b1a-8af9-de28dcbd420e
+21:53:38.275 [main] DEBUG client.mvc.ClientModel - Set Game State: 350bbb86-1278-4b1a-8af9-de28dcbd420e
+21:53:38.295 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:38.723 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:38.723 [main] DEBUG client.mvc.CLI - Displaying Game State: 676203dd-f5a3-4225-8fdc-480efb48ccba
+21:53:38.723 [main] DEBUG client.mvc.ClientModel - Set Game State: 676203dd-f5a3-4225-8fdc-480efb48ccba
+21:53:38.748 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:39.164 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:39.165 [main] DEBUG client.mvc.CLI - Displaying Game State: 706b5411-9214-4821-b1cf-c8a5cf42b674
+21:53:39.165 [main] DEBUG client.mvc.ClientModel - Set Game State: 706b5411-9214-4821-b1cf-c8a5cf42b674
+21:53:39.185 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:39.615 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:39.615 [main] DEBUG client.mvc.CLI - Displaying Game State: 7b778513-4288-436f-947b-010b13bb358a
+21:53:39.616 [main] DEBUG client.mvc.ClientModel - Set Game State: 7b778513-4288-436f-947b-010b13bb358a
+21:53:39.630 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:40.071 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:40.072 [main] DEBUG client.mvc.CLI - Displaying Game State: 427027cf-c952-45b2-90cc-b417d4784324
+21:53:40.072 [main] DEBUG client.mvc.ClientModel - Set Game State: 427027cf-c952-45b2-90cc-b417d4784324
+21:53:40.088 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:40.508 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:40.508 [main] DEBUG client.mvc.CLI - Displaying Game State: 521f0bc6-13de-456c-a16a-bb580bf641d1
+21:53:40.508 [main] DEBUG client.mvc.ClientModel - Set Game State: 521f0bc6-13de-456c-a16a-bb580bf641d1
+21:53:40.529 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:53:40.956 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:40.956 [main] DEBUG client.mvc.CLI - Displaying Game State: a38f6c63-ddd3-4ae5-a323-3d629294182a
+21:53:40.956 [main] DEBUG client.mvc.ClientModel - Set Game State: a38f6c63-ddd3-4ae5-a323-3d629294182a
+21:53:40.956 [main] WARN  client.mvc.ClientController - Generating next set of moves!
+21:53:40.956 [main] DEBUG client.navigation.TreasureNavigator - Requesting Path from Position [0|1] to Position [9|3]
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [0|1] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [0|2] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [0|3] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [1|3] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [2|3] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [3|3] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [4|3] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [5|3] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [6|3] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [7|3] added to visited
+21:53:40.957 [main] DEBUG client.navigation.TreasureNavigator - Position [8|3] added to visited
+21:53:40.978 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:41.409 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:41.409 [main] DEBUG client.mvc.CLI - Displaying Game State: cbf559de-5553-4708-ba34-d497f385fe2d
+21:53:41.410 [main] DEBUG client.mvc.ClientModel - Set Game State: cbf559de-5553-4708-ba34-d497f385fe2d
+21:53:41.429 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:41.850 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:41.850 [main] DEBUG client.mvc.CLI - Displaying Game State: 19a50bd8-5418-42e8-9bc7-b01e83910134
+21:53:41.850 [main] DEBUG client.mvc.ClientModel - Set Game State: 19a50bd8-5418-42e8-9bc7-b01e83910134
+21:53:41.879 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:42.307 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:42.307 [main] DEBUG client.mvc.CLI - Displaying Game State: 01f52f61-cd5d-4d1f-9417-b336975c264a
+21:53:42.308 [main] DEBUG client.mvc.ClientModel - Set Game State: 01f52f61-cd5d-4d1f-9417-b336975c264a
+21:53:42.327 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:42.755 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:42.755 [main] DEBUG client.mvc.CLI - Displaying Game State: 657a43c0-a19c-47cc-944a-561359e38735
+21:53:42.755 [main] DEBUG client.mvc.ClientModel - Set Game State: 657a43c0-a19c-47cc-944a-561359e38735
+21:53:42.778 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:53:43.208 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:43.208 [main] DEBUG client.mvc.CLI - Displaying Game State: 6f6e3f96-2145-4b58-b44d-2e6f67a083da
+21:53:43.209 [main] DEBUG client.mvc.ClientModel - Set Game State: 6f6e3f96-2145-4b58-b44d-2e6f67a083da
+21:53:43.228 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:43.656 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:43.656 [main] DEBUG client.mvc.CLI - Displaying Game State: 6e40540d-beb9-44c3-88f3-0ecae6fd0bb8
+21:53:43.656 [main] DEBUG client.mvc.ClientModel - Set Game State: 6e40540d-beb9-44c3-88f3-0ecae6fd0bb8
+21:53:43.686 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:44.124 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:44.124 [main] DEBUG client.mvc.CLI - Displaying Game State: f0708b1d-80f6-4d37-8dc6-8a4250edaf52
+21:53:44.124 [main] DEBUG client.mvc.ClientModel - Set Game State: f0708b1d-80f6-4d37-8dc6-8a4250edaf52
+21:53:44.142 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:44.567 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:44.567 [main] DEBUG client.mvc.CLI - Displaying Game State: 51695e53-8889-477e-ad60-6b7916d66868
+21:53:44.568 [main] DEBUG client.mvc.ClientModel - Set Game State: 51695e53-8889-477e-ad60-6b7916d66868
+21:53:44.585 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:45.027 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:45.027 [main] DEBUG client.mvc.CLI - Displaying Game State: 5ba9cc2e-eb94-4578-8045-5c5766888c0b
+21:53:45.028 [main] DEBUG client.mvc.ClientModel - Set Game State: 5ba9cc2e-eb94-4578-8045-5c5766888c0b
+21:53:45.053 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:45.475 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:45.476 [main] DEBUG client.mvc.CLI - Displaying Game State: 3f626aee-7139-4ae9-8d61-c6b98d863e1f
+21:53:45.476 [main] DEBUG client.mvc.ClientModel - Set Game State: 3f626aee-7139-4ae9-8d61-c6b98d863e1f
+21:53:45.501 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:45.930 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:45.931 [main] DEBUG client.mvc.CLI - Displaying Game State: 41696d1b-5c76-4ea3-b0b6-50ac8e396b46
+21:53:45.931 [main] DEBUG client.mvc.ClientModel - Set Game State: 41696d1b-5c76-4ea3-b0b6-50ac8e396b46
+21:53:45.944 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:46.376 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:46.376 [main] DEBUG client.mvc.CLI - Displaying Game State: f4944b75-e3af-4ac2-a35c-92ac2d1305bd
+21:53:46.377 [main] DEBUG client.mvc.ClientModel - Set Game State: f4944b75-e3af-4ac2-a35c-92ac2d1305bd
+21:53:46.407 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:46.833 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:46.833 [main] DEBUG client.mvc.CLI - Displaying Game State: 36a2147b-f654-4af7-be22-cd150e729ff9
+21:53:46.834 [main] DEBUG client.mvc.ClientModel - Set Game State: 36a2147b-f654-4af7-be22-cd150e729ff9
+21:53:46.854 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:47.274 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:47.274 [main] DEBUG client.mvc.CLI - Displaying Game State: a3e7c129-c65c-400a-9726-c7fc474c5910
+21:53:47.275 [main] DEBUG client.mvc.ClientModel - Set Game State: a3e7c129-c65c-400a-9726-c7fc474c5910
+21:53:47.289 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:47.721 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:47.721 [main] DEBUG client.mvc.CLI - Displaying Game State: 6144f828-2d6e-4e50-956a-a8c0291a7c6e
+21:53:47.721 [main] DEBUG client.mvc.ClientModel - Set Game State: 6144f828-2d6e-4e50-956a-a8c0291a7c6e
+21:53:47.762 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:48.186 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:48.186 [main] DEBUG client.mvc.CLI - Displaying Game State: d4c1fb5f-4e94-462e-82ea-14b58258313e
+21:53:48.187 [main] DEBUG client.mvc.ClientModel - Set Game State: d4c1fb5f-4e94-462e-82ea-14b58258313e
+21:53:48.200 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:48.650 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:48.650 [main] DEBUG client.mvc.CLI - Displaying Game State: 52240e69-d091-48cd-961d-ecccc2f86cf1
+21:53:48.650 [main] DEBUG client.mvc.ClientModel - Set Game State: 52240e69-d091-48cd-961d-ecccc2f86cf1
+21:53:48.677 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:49.106 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:49.107 [main] DEBUG client.mvc.CLI - Displaying Game State: 15c97176-b373-4db8-85b5-02712aa2c848
+21:53:49.107 [main] DEBUG client.mvc.ClientModel - Set Game State: 15c97176-b373-4db8-85b5-02712aa2c848
+21:53:49.137 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:49.563 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:49.563 [main] DEBUG client.mvc.CLI - Displaying Game State: c9d35057-4591-4f5f-9ab4-e4251f403ba2
+21:53:49.564 [main] DEBUG client.mvc.ClientModel - Set Game State: c9d35057-4591-4f5f-9ab4-e4251f403ba2
+21:53:49.584 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:49.999 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:49.999 [main] DEBUG client.mvc.CLI - Displaying Game State: ad2c3ed3-6748-4fdf-a178-105c7bfe6d59
+21:53:50.000 [main] DEBUG client.mvc.ClientModel - Set Game State: ad2c3ed3-6748-4fdf-a178-105c7bfe6d59
+21:53:50.019 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:50.447 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:50.447 [main] DEBUG client.mvc.CLI - Displaying Game State: 6f860f90-f4e2-4b1c-993d-5e63f83e2490
+21:53:50.448 [main] DEBUG client.mvc.ClientModel - Set Game State: 6f860f90-f4e2-4b1c-993d-5e63f83e2490
+21:53:50.462 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:50.890 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:50.890 [main] DEBUG client.mvc.CLI - Displaying Game State: 5c7cc330-7cef-4ac3-bd9d-8af9dbda37ab
+21:53:50.891 [main] DEBUG client.mvc.ClientModel - Set Game State: 5c7cc330-7cef-4ac3-bd9d-8af9dbda37ab
+21:53:50.912 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:51.339 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:51.339 [main] DEBUG client.mvc.CLI - Displaying Game State: 36c0394e-e6e2-46fe-a7de-d01be8bc6ab8
+21:53:51.340 [main] DEBUG client.mvc.ClientModel - Set Game State: 36c0394e-e6e2-46fe-a7de-d01be8bc6ab8
+21:53:51.353 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:51.784 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:51.784 [main] DEBUG client.mvc.CLI - Displaying Game State: fa8bc18d-3f95-4b9a-8b91-1db467ce83f1
+21:53:51.785 [main] DEBUG client.mvc.ClientModel - Set Game State: fa8bc18d-3f95-4b9a-8b91-1db467ce83f1
+21:53:51.807 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:52.230 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:52.231 [main] DEBUG client.mvc.CLI - Displaying Game State: 70c709bd-6f37-4d0a-88d8-f2df63700eca
+21:53:52.231 [main] DEBUG client.mvc.ClientModel - Set Game State: 70c709bd-6f37-4d0a-88d8-f2df63700eca
+21:53:52.252 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:52.674 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:52.674 [main] DEBUG client.mvc.CLI - Displaying Game State: 8f45ba2e-b5ea-48e2-9cac-9f751a3433c9
+21:53:52.675 [main] DEBUG client.mvc.ClientModel - Set Game State: 8f45ba2e-b5ea-48e2-9cac-9f751a3433c9
+21:53:52.675 [main] WARN  client.mvc.ClientController - Treasure detected at Position [9|2]
+21:53:52.675 [main] DEBUG client.navigation.TreasureNavigator - Position [9|3] added to visited
+21:53:52.688 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:53.116 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:53.116 [main] DEBUG client.mvc.CLI - Displaying Game State: b5053c3d-51df-4a87-83bd-a1e63e719dd7
+21:53:53.116 [main] DEBUG client.mvc.ClientModel - Set Game State: b5053c3d-51df-4a87-83bd-a1e63e719dd7
+21:53:53.116 [main] WARN  client.mvc.ClientController - Treasure detected at Position [9|2]
+21:53:53.116 [main] DEBUG client.navigation.TreasureNavigator - Position [9|3] added to visited
+21:53:53.129 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:53.555 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:53.555 [main] DEBUG client.mvc.CLI - Displaying Game State: 4418ded6-8c70-4909-927b-786c908ef4bb
+21:53:53.556 [main] DEBUG client.mvc.ClientModel - Set Game State: 4418ded6-8c70-4909-927b-786c908ef4bb
+21:53:53.556 [main] WARN  client.mvc.ClientController - Treasure detected at Position [9|2]
+21:53:53.556 [main] DEBUG client.navigation.TreasureNavigator - Position [9|3] added to visited
+21:53:53.581 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:54.013 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:54.013 [main] DEBUG client.mvc.CLI - Displaying Game State: 556c4936-4719-42b8-9ee6-1a154b2284bc
+21:53:54.014 [main] DEBUG client.mvc.ClientModel - Set Game State: 556c4936-4719-42b8-9ee6-1a154b2284bc
+21:53:54.014 [main] INFO  client.mvc.ClientController - Treasure Found!
+21:53:54.014 [main] INFO  client.mvc.ClientController - Searching for the enemy Castle!
+21:53:54.827 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:54.829 [main] DEBUG client.navigation.CastleNavigator - Extracted Current Position: Position [9|2])
+21:53:54.830 [main] DEBUG client.navigation.CastleNavigator - Extracted [Right] Half of [Horizontal] Map
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Requesting Path from Position [9|2] to Position [15|0]
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Position [9|2] added to visited
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Position [10|2] added to visited
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Position [10|1] added to visited
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Position [10|0] added to visited
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Position [11|0] added to visited
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Position [12|0] added to visited
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Position [13|0] added to visited
+21:53:54.831 [main] DEBUG client.navigation.CastleNavigator - Position [14|0] added to visited
+21:53:54.844 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:54.844 [main] DEBUG client.mvc.ClientModel - Set Game State: 556c4936-4719-42b8-9ee6-1a154b2284bc
+21:53:54.865 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:55.283 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:55.284 [main] DEBUG client.mvc.CLI - Displaying Game State: 88f203fe-4759-4a30-8454-2ca3c20ab047
+21:53:55.284 [main] DEBUG client.mvc.ClientModel - Set Game State: 88f203fe-4759-4a30-8454-2ca3c20ab047
+21:53:55.301 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:55.728 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:55.728 [main] DEBUG client.mvc.CLI - Displaying Game State: cec3cc75-bc30-4ffd-bd8b-c6b2352a41e0
+21:53:55.729 [main] DEBUG client.mvc.ClientModel - Set Game State: cec3cc75-bc30-4ffd-bd8b-c6b2352a41e0
+21:53:55.750 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:56.175 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:56.175 [main] DEBUG client.mvc.CLI - Displaying Game State: 4e0fcd6a-08ff-4231-9d9e-d50667c11e7b
+21:53:56.176 [main] DEBUG client.mvc.ClientModel - Set Game State: 4e0fcd6a-08ff-4231-9d9e-d50667c11e7b
+21:53:56.200 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:56.629 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:56.629 [main] DEBUG client.mvc.CLI - Displaying Game State: da07b863-e73d-4d61-bd2e-1710ba04a44f
+21:53:56.629 [main] DEBUG client.mvc.ClientModel - Set Game State: da07b863-e73d-4d61-bd2e-1710ba04a44f
+21:53:56.651 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:57.083 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:57.083 [main] DEBUG client.mvc.CLI - Displaying Game State: 8f3ecebf-0b80-4cbe-8256-274528aacf63
+21:53:57.084 [main] DEBUG client.mvc.ClientModel - Set Game State: 8f3ecebf-0b80-4cbe-8256-274528aacf63
+21:53:57.108 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:57.530 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:57.530 [main] DEBUG client.mvc.CLI - Displaying Game State: 83f0bc23-7a30-4767-a40a-8f2b00b436db
+21:53:57.531 [main] DEBUG client.mvc.ClientModel - Set Game State: 83f0bc23-7a30-4767-a40a-8f2b00b436db
+21:53:57.544 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:57.988 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:57.989 [main] DEBUG client.mvc.CLI - Displaying Game State: 774235b4-dc62-4f26-a780-b2db5b01d8ae
+21:53:57.989 [main] DEBUG client.mvc.ClientModel - Set Game State: 774235b4-dc62-4f26-a780-b2db5b01d8ae
+21:53:58.014 [main] DEBUG client.network.ClientNetwork - Move Up sent successfully!
+21:53:58.439 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:58.439 [main] DEBUG client.mvc.CLI - Displaying Game State: b52677b6-8b91-43f6-a429-d077bf90e551
+21:53:58.439 [main] DEBUG client.mvc.ClientModel - Set Game State: b52677b6-8b91-43f6-a429-d077bf90e551
+21:53:58.455 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:58.886 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:58.886 [main] DEBUG client.mvc.CLI - Displaying Game State: 27fc18f1-aef1-4f6b-8400-73f2dd2fd8f7
+21:53:58.886 [main] DEBUG client.mvc.ClientModel - Set Game State: 27fc18f1-aef1-4f6b-8400-73f2dd2fd8f7
+21:53:58.915 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:59.335 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:59.335 [main] DEBUG client.mvc.CLI - Displaying Game State: 77787429-4a2c-4f49-aa83-d44d0bdbedd4
+21:53:59.336 [main] DEBUG client.mvc.ClientModel - Set Game State: 77787429-4a2c-4f49-aa83-d44d0bdbedd4
+21:53:59.352 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:53:59.776 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:53:59.776 [main] DEBUG client.mvc.CLI - Displaying Game State: 0f1daf4c-0268-4e64-b9c5-2a997ceb8b9f
+21:53:59.777 [main] DEBUG client.mvc.ClientModel - Set Game State: 0f1daf4c-0268-4e64-b9c5-2a997ceb8b9f
+21:53:59.804 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:54:00.220 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:00.221 [main] DEBUG client.mvc.CLI - Displaying Game State: 0b8fbcc1-b835-4bc4-b1de-36d057894faa
+21:54:00.221 [main] DEBUG client.mvc.ClientModel - Set Game State: 0b8fbcc1-b835-4bc4-b1de-36d057894faa
+21:54:00.240 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:54:00.669 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:00.669 [main] DEBUG client.mvc.CLI - Displaying Game State: abd06fc9-3e9b-461f-b617-139cdb6ebb6b
+21:54:00.670 [main] DEBUG client.mvc.ClientModel - Set Game State: abd06fc9-3e9b-461f-b617-139cdb6ebb6b
+21:54:00.695 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:54:01.122 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:01.122 [main] DEBUG client.mvc.CLI - Displaying Game State: 2a2cc2b0-1ad2-4491-9048-4bf52577390a
+21:54:01.123 [main] DEBUG client.mvc.ClientModel - Set Game State: 2a2cc2b0-1ad2-4491-9048-4bf52577390a
+21:54:01.138 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:54:01.565 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:01.565 [main] DEBUG client.mvc.CLI - Displaying Game State: 630d6bcf-3e04-43d7-87df-c754cb2667c9
+21:54:01.565 [main] DEBUG client.mvc.ClientModel - Set Game State: 630d6bcf-3e04-43d7-87df-c754cb2667c9
+21:54:01.588 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:54:02.077 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:02.077 [main] DEBUG client.mvc.CLI - Displaying Game State: 2c760128-0f98-43cf-8088-7c9d5ced6369
+21:54:02.077 [main] DEBUG client.mvc.ClientModel - Set Game State: 2c760128-0f98-43cf-8088-7c9d5ced6369
+21:54:02.114 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:54:02.528 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:02.528 [main] DEBUG client.mvc.CLI - Displaying Game State: afc351c9-e49f-4892-946f-a1c39ac90e35
+21:54:02.528 [main] DEBUG client.mvc.ClientModel - Set Game State: afc351c9-e49f-4892-946f-a1c39ac90e35
+21:54:02.544 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:54:02.966 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:02.966 [main] DEBUG client.mvc.CLI - Displaying Game State: 2603d4ca-8e20-464a-a0c6-9dfe8972026b
+21:54:02.966 [main] DEBUG client.mvc.ClientModel - Set Game State: 2603d4ca-8e20-464a-a0c6-9dfe8972026b
+21:54:02.983 [main] DEBUG client.network.ClientNetwork - Move Right sent successfully!
+21:54:03.408 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:03.408 [main] DEBUG client.mvc.CLI - Displaying Game State: 273cadee-1bc1-4b44-8e8c-fd1b90bb7e5c
+21:54:03.409 [main] DEBUG client.mvc.ClientModel - Set Game State: 273cadee-1bc1-4b44-8e8c-fd1b90bb7e5c
+21:54:03.409 [main] DEBUG client.navigation.CastleNavigator - Requesting Path from Position [15|0] to Position [11|1]
+21:54:03.409 [main] DEBUG client.navigation.CastleNavigator - Position [15|0] added to visited
+21:54:03.409 [main] DEBUG client.navigation.CastleNavigator - Position [15|1] added to visited
+21:54:03.409 [main] DEBUG client.navigation.CastleNavigator - Position [14|1] added to visited
+21:54:03.409 [main] DEBUG client.navigation.CastleNavigator - Position [13|1] added to visited
+21:54:03.409 [main] DEBUG client.navigation.CastleNavigator - Position [12|1] added to visited
+21:54:03.424 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:54:03.854 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:03.854 [main] DEBUG client.mvc.CLI - Displaying Game State: 228223ee-d0ad-47bb-95e7-85d55a7062b8
+21:54:03.855 [main] DEBUG client.mvc.ClientModel - Set Game State: 228223ee-d0ad-47bb-95e7-85d55a7062b8
+21:54:03.870 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:54:04.299 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:04.300 [main] DEBUG client.mvc.CLI - Displaying Game State: 1f387fe5-b881-4248-a4f2-f44036186af2
+21:54:04.300 [main] DEBUG client.mvc.ClientModel - Set Game State: 1f387fe5-b881-4248-a4f2-f44036186af2
+21:54:04.316 [main] DEBUG client.network.ClientNetwork - Move Down sent successfully!
+21:54:04.745 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:04.745 [main] DEBUG client.mvc.CLI - Displaying Game State: b18f9bf8-3ead-4d62-a61b-51c07a99cf45
+21:54:04.745 [main] DEBUG client.mvc.ClientModel - Set Game State: b18f9bf8-3ead-4d62-a61b-51c07a99cf45
+21:54:04.760 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:54:05.179 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:05.179 [main] DEBUG client.mvc.CLI - Displaying Game State: b02b0b2f-a0e1-4797-85fd-dbe3a7b8513b
+21:54:05.179 [main] DEBUG client.mvc.ClientModel - Set Game State: b02b0b2f-a0e1-4797-85fd-dbe3a7b8513b
+21:54:05.196 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:54:05.628 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:05.628 [main] DEBUG client.mvc.CLI - Displaying Game State: 799d8c8e-5831-4777-9c8f-1be3ccf9d71f
+21:54:05.629 [main] DEBUG client.mvc.ClientModel - Set Game State: 799d8c8e-5831-4777-9c8f-1be3ccf9d71f
+21:54:05.651 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:54:06.066 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:06.066 [main] DEBUG client.mvc.CLI - Displaying Game State: 15fe17fa-5911-43d0-bb81-aed608c6f766
+21:54:06.067 [main] DEBUG client.mvc.ClientModel - Set Game State: 15fe17fa-5911-43d0-bb81-aed608c6f766
+21:54:06.082 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:54:06.508 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:06.508 [main] DEBUG client.mvc.CLI - Displaying Game State: 8b4b7246-2904-4205-9078-09043a41c071
+21:54:06.508 [main] DEBUG client.mvc.ClientModel - Set Game State: 8b4b7246-2904-4205-9078-09043a41c071
+21:54:06.521 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:54:06.949 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:06.949 [main] DEBUG client.mvc.CLI - Displaying Game State: bc2529e8-f252-4f11-a60c-2e837d06efb6
+21:54:06.949 [main] DEBUG client.mvc.ClientModel - Set Game State: bc2529e8-f252-4f11-a60c-2e837d06efb6
+21:54:06.966 [main] DEBUG client.network.ClientNetwork - Move Left sent successfully!
+21:54:07.386 [main] DEBUG client.network.ClientNetwork - Retrieved Game State: 
+21:54:07.386 [main] DEBUG client.mvc.CLI - Displaying Game State: 3e867616-23ad-4d34-b3bf-a8a87f1df0a6
+21:54:07.388 [main] DEBUG client.mvc.ClientModel - Set Game State: 3e867616-23ad-4d34-b3bf-a8a87f1df0a6
+21:54:07.395 [main] WARN  client.mvc.ClientModel - Set Game Message: [43m[1mVictory :)[0m
+21:54:07.395 [main] INFO  client.mvc.ClientController - Client has won the game!
+21:54:07.395 [main] INFO  client.main.MainClient - Game Logic ended.
