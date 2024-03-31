@@ -9,6 +9,6 @@ Treasure Hunt Game (University of Vienna, SE1 Course Project, SS23)
 ### Stack:
 
 ### CLI: 
-![treasure hunt game ui](https://github.com/TTsonev/treasure-hunt-game/blob/main/cli.png)
+![treasure hunt game ui](https://github.com/TTsonev/treasure-hunt-game/blob/main/ui.png)
 
 ### Game Rules:
