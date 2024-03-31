@@ -6,7 +6,12 @@ Treasure Hunt Game (University of Vienna, SE1 Course Project, SS23)
 - Unit tests
 - Executable JARs
 
-### Stack:
+### Notes:
+- Java 17
+- Spring
+- JUnit 5
+- JDBC
+- Algorithms: Landfill, DFS
 
 ### CLI: 
 ![treasure hunt game ui](https://github.com/TTsonev/treasure-hunt-game/blob/main/ui.png)
